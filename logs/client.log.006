@@ -1,0 +1,120 @@
+[2014/06/23 11:48:22 BST] [INFO] (github.com/agurha/tunnel/pkg/log.Info:89) Reading configuration file tunnel-config
+[2014/06/23 11:48:22 BST] [INFO] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Info:60) [client] Trusting root CAs: [tunnelroot.crt]
+[2014/06/23 11:48:22 BST] [INFO] (github.com/agurha/tunnel/pkg/log.Info:89) info about http files %!s(*rice.Box=<nil>)
+[2014/06/23 11:48:22 BST] [EROR] (github.com/agurha/tunnel/pkg/log.Error:97) error opening rice.Box: box name contains illegal dot (.) character
+
+[2014/06/23 11:48:22 BST] [INFO] (github.com/agurha/tunnel/pkg/log.Info:89) cert path is tunnelroot.crt
+[2014/06/23 11:48:22 BST] [INFO] (github.com/agurha/tunnel/pkg/log.Info:89) rootCrt value is -----BEGIN CERTIFICATE-----
+MIIDLDCCAhSgAwIBAgIJALLiQWXbxFwxMA0GCSqGSIb3DQEBBQUAMBgxFjAUBgNV
+BAMTDWV6enl0dW5uZWwubWUwHhcNMTQwNjIzMDk1ODQzWhcNMjgwMzAxMDk1ODQz
+WjAYMRYwFAYDVQQDEw1lenp5dHVubmVsLm1lMIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEA5DDtBVLpOTwUjapF96ABYG88xWkWeg682TYDKAQvQOMp2xAw
+e6cZUICZU+Ga049qzkAbTJJ2wwGHXGrhsT8GIAnM4Tgnq4CBWD4v6JRmq7xTzDRg
+zFtN4geCR+L8MvjFbb1eq5C/rz3pIQvkmbO2PbZ8zkL8+XQkrWsdVCKHBCrxuZjv
+nTemRDZRHgkZTy6HNIJt7euClE2LNlZ3p0knxDUepn6UXzfpn4v4o2Mc7mfkNqUV
+Qv2K1huWyT16syBMARgkJZNmezx1VvqfoTZd55K2ItMpTAcFBSRTHjBfE5QilFtF
+4aVoeqQSN4yzjzTgd+0arKiCqLELsNSiFfxhlwIDAQABo3kwdzAdBgNVHQ4EFgQU
+IAXUwF7GWJCMeq23VPiyOUcTl/wwSAYDVR0jBEEwP4AUIAXUwF7GWJCMeq23VPiy
+OUcTl/yhHKQaMBgxFjAUBgNVBAMTDWV6enl0dW5uZWwubWWCCQCy4kFl28RcMTAM
+BgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQAn1rD4ACo4xjhBz4VZq27q
+QwW5Q4uL/3iCABd2ujbk1Grd5PVB4sXN5NMqrz2aLpz9GCQs6A2zm5QM9ZQeKx1v
+sxtyc2IentWTTRua2Qm4yr4wuzxnaD4G/9wQeyMrctFgdfgctv5ZfK4iXX3KvCTE
+WIM76PQ98DgXjf87skRDyYLDbJepOXS6GNzlf/gwut9XH7AUAgGxW4haZZ1K85p3
+TErgGhK9XW0l0w3O+Ix+FnrGMYVDK9RImxTFw8xfFHHDPqqbKMM5SOkYCbkXzs36
+xY5OLT0CtXx49vE7g5/EESObEo6PqorE4o0RPgeTMkKndmz6v27/RrXPzsdHw2+p
+-----END CERTIFICATE-----
+
+[2014/06/23 11:48:22 BST] [INFO] (github.com/agurha/tunnel/pkg/log.Info:89) info about http files %!s(*rice.Box=<nil>)
+[2014/06/23 11:48:22 BST] [EROR] (github.com/agurha/tunnel/pkg/log.Error:97) cannot find rice box. error: box name contains illegal dot (.) character
+
+[2014/06/23 11:48:22 BST] [INFO] (github.com/agurha/tunnel/pkg/log.Info:89) quite good
+[2014/06/23 11:48:22 BST] [INFO] (github.com/agurha/tunnel/pkg/log.Info:89) info about fileserver &{%!s(*rice.HTTPBox=&{<nil>})}
+[2014/06/23 11:48:22 BST] [INFO] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Info:60) [view] [web] Serving web interface on 127.0.0.1:1333
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [view] [term] Waiting for update
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] New connection to: 127.0.0.1:4443
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Writing message: {"Type":"Auth","Payload":{"Version":"2","MmVersion":"1.0","User":"","Password":"","OS":"darwin","Arch":"amd64","ClientId":""}}
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Waiting to read message
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Reading message with length: 120
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Read message {"Type":"AuthResp","Payload":{"Version":"2","MmVersion":"1.0","ClientId":"3a91247c81f25c47b7b1da252dd6741e","Error":""}}
+[2014/06/23 11:48:22 BST] [INFO] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Info:60) [client] Authenticated with server, client id: 3a91247c81f25c47b7b1da252dd6741e
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Writing message: {"Type":"ReqTunnel","Payload":{"ReqId":"b1275e16fae22d6a","Protocol":"http+https","Hostname":"","Subdomain":"test","HttpAuth":"","RemotePort":0}}
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Waiting to read message
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Reading message with length: 32
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Read message {"Type":"ReqProxy","Payload":{}}
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Waiting to read message
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [view] [term] Waiting for update
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Reading message with length: 122
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Read message {"Type":"NewTunnel","Payload":{"ReqId":"b1275e16fae22d6a","Url":"http://test.ezzytunnel.me","Protocol":"http","Error":""}}
+[2014/06/23 11:48:22 BST] [INFO] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Info:60) [client] Tunnel established at http://test.ezzytunnel.me
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Waiting to read message
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Reading message with length: 124
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Read message {"Type":"NewTunnel","Payload":{"ReqId":"b1275e16fae22d6a","Url":"https://test.ezzytunnel.me","Protocol":"https","Error":""}}
+[2014/06/23 11:48:22 BST] [INFO] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Info:60) [client] Tunnel established at https://test.ezzytunnel.me
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Waiting to read message
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [view] [term] Waiting for update
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [view] [term] Waiting for update
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [pxy:7e994f02] New connection to: 127.0.0.1:4443
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [pxy:7e994f02] Writing message: {"Type":"RegProxy","Payload":{"ClientId":"3a91247c81f25c47b7b1da252dd6741e"}}
+[2014/06/23 11:48:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [pxy:7e994f02] Waiting to read message
+[2014/06/23 11:48:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Reading message with length: 32
+[2014/06/23 11:48:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Read message {"Type":"ReqProxy","Payload":{}}
+[2014/06/23 11:48:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Waiting to read message
+[2014/06/23 11:48:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [pxy:7e994f02] Reading message with length: 98
+[2014/06/23 11:48:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [pxy:7e994f02] Read message {"Type":"StartProxy","Payload":{"Url":"http://test.ezzytunnel.me","ClientAddr":"127.0.0.1:61276"}}
+[2014/06/23 11:48:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [pxy:1b5bbfeb] New connection to: 127.0.0.1:4443
+[2014/06/23 11:48:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [pxy:1b5bbfeb] Writing message: {"Type":"RegProxy","Payload":{"ClientId":"3a91247c81f25c47b7b1da252dd6741e"}}
+[2014/06/23 11:48:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [prv:2e2675ff] New connection to: 127.0.0.1:3000
+[2014/06/23 11:48:28 BST] [INFO] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Info:60) [prv:2e2675ff] Joined with connection pxy:7e994f02
+[2014/06/23 11:48:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [view] [term] Waiting for update
+[2014/06/23 11:48:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [view] [term] [http] Got HTTP update
+[2014/06/23 11:48:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [view] [term] Waiting for update
+[2014/06/23 11:48:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [view] [term] [http] Got HTTP update
+[2014/06/23 11:48:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [view] [term] Waiting for update
+[2014/06/23 11:48:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [pxy:1b5bbfeb] Waiting to read message
+[2014/06/23 11:48:42 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Writing message: {"Type":"Ping","Payload":{}}
+[2014/06/23 11:48:42 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Reading message with length: 28
+[2014/06/23 11:48:42 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Read message {"Type":"Pong","Payload":{}}
+[2014/06/23 11:48:42 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Waiting to read message
+[2014/06/23 11:49:02 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Writing message: {"Type":"Ping","Payload":{}}
+[2014/06/23 11:49:02 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Reading message with length: 28
+[2014/06/23 11:49:02 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Read message {"Type":"Pong","Payload":{}}
+[2014/06/23 11:49:02 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Waiting to read message
+[2014/06/23 11:49:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Writing message: {"Type":"Ping","Payload":{}}
+[2014/06/23 11:49:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Reading message with length: 28
+[2014/06/23 11:49:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Read message {"Type":"Pong","Payload":{}}
+[2014/06/23 11:49:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Waiting to read message
+[2014/06/23 11:49:42 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Writing message: {"Type":"Ping","Payload":{}}
+[2014/06/23 11:49:42 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Reading message with length: 28
+[2014/06/23 11:49:42 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Read message {"Type":"Pong","Payload":{}}
+[2014/06/23 11:49:42 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Waiting to read message
+[2014/06/23 11:50:02 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Writing message: {"Type":"Ping","Payload":{}}
+[2014/06/23 11:50:02 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Reading message with length: 28
+[2014/06/23 11:50:02 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Read message {"Type":"Pong","Payload":{}}
+[2014/06/23 11:50:02 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Waiting to read message
+[2014/06/23 11:50:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Writing message: {"Type":"Ping","Payload":{}}
+[2014/06/23 11:50:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Reading message with length: 28
+[2014/06/23 11:50:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Read message {"Type":"Pong","Payload":{}}
+[2014/06/23 11:50:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Waiting to read message
+[2014/06/23 11:50:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [prv:2e2675ff] Copied 255 bytes to pxy:7e994f02
+[2014/06/23 11:50:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [prv:2e2675ff] Closing
+[2014/06/23 11:50:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [pxy:7e994f02] Closing
+[2014/06/23 11:50:28 BST] [WARN] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Warn:64) [pxy:7e994f02] Copied 422 bytes to prv:2e2675ff before failing with error read tcp 127.0.0.1:4443: use of closed network connection
+[2014/06/23 11:50:28 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [view] [term] Waiting for update
+[2014/06/23 11:50:42 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Writing message: {"Type":"Ping","Payload":{}}
+[2014/06/23 11:50:42 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Reading message with length: 28
+[2014/06/23 11:50:42 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Read message {"Type":"Pong","Payload":{}}
+[2014/06/23 11:50:42 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Waiting to read message
+[2014/06/23 11:51:02 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Writing message: {"Type":"Ping","Payload":{}}
+[2014/06/23 11:51:02 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Reading message with length: 28
+[2014/06/23 11:51:02 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Read message {"Type":"Pong","Payload":{}}
+[2014/06/23 11:51:02 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Waiting to read message
+[2014/06/23 11:51:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Writing message: {"Type":"Ping","Payload":{}}
+[2014/06/23 11:51:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Reading message with length: 28
+[2014/06/23 11:51:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Read message {"Type":"Pong","Payload":{}}
+[2014/06/23 11:51:22 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Waiting to read message
+[2014/06/23 11:51:42 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Writing message: {"Type":"Ping","Payload":{}}
+[2014/06/23 11:51:42 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Reading message with length: 28
+[2014/06/23 11:51:42 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Read message {"Type":"Pong","Payload":{}}
+[2014/06/23 11:51:42 BST] [DEBG] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Debug:56) [ctl:9c388fa] Waiting to read message
+[2014/06/23 11:51:50 BST] [INFO] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Info:60) [view] [term] Got quit command
+[2014/06/23 11:51:50 BST] [INFO] (github.com/agurha/tunnel/pkg/log.(*PrefixLogger).Info:60) [controller] Shutting down

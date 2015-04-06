@@ -1,0 +1,15 @@
+*~
+~*
+*.deb
+*.rice-box.go
+
+bin/tunnel-cli
+bin/tunnel-server
+
+.idea
+.DS_STORE
+
+log/*.log
+
+.vagrant
+*.out
